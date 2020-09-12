@@ -1,0 +1,24 @@
+
+  //urusan background gambar mulai
+  .footer-header{
+    height: 85vh; // ukuran backgraound layar
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    background: url('./image/wave2.png') no-repeat;
+    background-position: right top;
+    background-size: 100% 200px;
+  }
+
+  .footer {
+    background-color: #ffdde1;
+  }
+
+  .menu {
+    list-style: none;
+    float: none;
+  }
+  .float{
+    float: right;
+  }

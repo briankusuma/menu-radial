@@ -1,0 +1,119 @@
+img {
+    position: absolute;
+    border-radius: 10px;
+}
+
+.fotos1 {
+    height: 900px;
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 700px;
+   
+}
+
+.fotos2 {
+    height: 600px;
+    width: 410px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.fotos3 {
+    height: 550px;
+    width: 450px;
+    margin-top: 1100px;
+    margin-left: 200px;
+}
+
+.fotos4 {
+    height: 700px;
+    width: 450px;
+    margin-top: 1600px;
+    margin-left: 200px;
+}
+
+.fotos5 {
+    height: 700px;
+    width: 450px;
+    margin-top: 1600px;
+    margin-left: 750px;
+    z-index: 1;
+}
+
+.box1 { 
+    height: 500px;
+    width: 500px;
+    //position: absolute;
+    z-index: 10;
+    margin-left: 400px;
+    margin-top: 100px;
+
+    rect {
+    height: 500px;
+    width: 500px;
+    fill: #F08080;
+         }
+         
+}
+
+.box2 { 
+    height: 650px;
+    width: 650px;
+    //position: absolute;
+    z-index: 2;
+    margin-left: 400px;
+    margin-top: 450px;
+
+    rect {
+    height: 650px;
+    width: 650px;
+    fill: #f6546a ;
+         }
+         
+}
+
+.box3 { 
+    height: 550px;
+    width: 50px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 250px;
+    margin-top: 650px;
+
+    rect {
+    height: 650px;
+    width: 50px;
+    fill: #6a81f9;
+         }
+         
+}
+
+.cdeck{
+    margin-left: 175px;
+    margin-right: 130px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.card {
+    color: salmon;
+    width: 300px;
+    height: 300px;
+    margin-left: 175px;
+    margin-top: 100px;
+    
+}
+.ctext{
+    color : black;
+    margin-top: 10px;
+    font-size: small;
+    margin-left: 0px;
+    
+}
+.cbody{
+    margin-top: 150px;
+    text-align: center;
+}
+.ctitle{
+    font-size: larger;
+    font-weight: bold;
+}

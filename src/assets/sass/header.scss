@@ -1,0 +1,141 @@
+
+
+.Ap {
+    .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }}
+  //urusan background gambar mulai
+  .Ap-header{
+    height: 100vh; // ukuran backgraound layar
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+.flower{
+  background: url('./image/flower.jpg') no-repeat;
+  background-position: right top;
+  background-size: 100% 100vh;
+}
+.wave{
+  background: url('./image/wave1.png') no-repeat;
+  background-position: right bottom;
+  background-size: 100% 200px;
+}
+.f1{
+  background: url('./image/flower1.png') no-repeat;
+  background-position: right top;
+  background-size: 100% 100vh;
+}
+.f2{
+  background: url('./image/flower2.png') no-repeat;
+  background-position: right top;
+  background-size: 100% 100vh;
+}
+.f3{
+  background: url('./image/flower3.png') no-repeat;
+  background-position: right top;
+  background-size: 100% 100vh;
+}
+//urusan background gambar slesai
+
+//ukuran dan bakground content
+  .content-header {
+    background : 
+    linear-gradient( 
+      to bottom, 
+      #ffffff 0%,
+      #ffdde1 70%,
+      #85c1e9 90%,
+      #ffffff 100%,
+     
+  );
+    min-height: 500vh; // ukuran backgraound layar
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+//sampai sini content
+
+    .button {
+      display: inline-block;
+      border-radius: 30px;
+      background-color: #ffdde1;
+      border-color:#ffdde1;
+      color: black;
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+      width: 250px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin-top: 50px;
+      margin-left: 170px;
+    }
+    .button:hover {
+      background-color:#C8C8CD;
+
+    }
+
+    #shadow {
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px#C71585;
+      transition: box-shadow 0.5s;
+    }
+    #shadow:hover {
+      box-shadow: 0px 4px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+    .text{
+      margin-top: 100px;
+      margin-left: 170px;
+    }
+    p {
+      margin-left: 150px;
+      margin-top: 50px;
+      color:white;
+      font-family: 'Fredoka One', cursive;
+      font-size: 20px;
+    }
+    em {
+      font-family: 'Cedarville Cursive', cursive;
+      font-weight:bold;
+      font-size: 60px;
+      color: #C71585;
+    }
+
+.text{
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+}

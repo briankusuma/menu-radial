@@ -1,0 +1,25 @@
+
+
+#list {
+  font-size: 4rem;
+  padding-top: 100px;
+  
+}
+
+#sideList {
+  list-style-type: none;
+    li:hover {
+      transition-duration: 0.5s;
+      color:#CD5C5C;}
+    li {
+      font-family: 'Courgette', cursive;
+      cursor: pointer;
+    }
+}
+
+#socialmedia {
+  cursor: pointer;
+  display: inline;
+  padding: 10px;
+
+}
